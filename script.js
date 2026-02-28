@@ -1,5 +1,5 @@
 const GIGA_IMG = "gigachad.png"; // On utilise ton fichier local maintenant
-const API_KEY = "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"; // <--- METS TA CLÉ ICI !
+const API_KEY = "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"; // <--- METS TA CLÉ ICI !
 
 const chatWindow = document.getElementById('chat-window');
 const userInput = document.getElementById('user-input');
@@ -73,5 +73,5 @@ sendBtn.onclick = sendMessage;
 userInput.onkeypress = (e) => { if (e.key === 'Enter') sendMessage(); };
 resetBtn.onclick = () => {
     chatWindow.innerHTML = '';
-    appendMessage("Table rase. On repart à zéro, bro.", 'bot');
+    appendMessage(" On repart à zéro, bro, on commence par quoi ? ", 'bot');
 };
