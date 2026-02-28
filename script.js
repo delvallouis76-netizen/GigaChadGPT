@@ -1,5 +1,4 @@
-const GIGA_IMG = "https://www.giantbomb.com/a/uploads/scale_small/46/462814/3221502-8667190631-latest.jpg";
-const USER_IMG = "https://cdn-icons-png.flaticon.com/512/3177/3177440.png";
+const GIGA_IMG = "gigachad.png"; // On utilise ton fichier local maintenant
 const API_KEY = "gsk_...Kx3z"; // <--- METS TA CLÉ ICI !
 
 const chatWindow = document.getElementById('chat-window');
@@ -11,7 +10,7 @@ const SYSTEM_PROMPT = "Tu es GigaChad. Tu es stoïque, motivant et direct. Tu ap
 
 // Premier message
 window.onload = () => {
-    appendMessage("Redresse-toi bro. On commence par quoi aujourd'hui ?", 'bot');
+    appendMessage("Hey bro, On commence par quoi aujourd'hui ?", 'bot');
 };
 
 async function sendMessage() {
