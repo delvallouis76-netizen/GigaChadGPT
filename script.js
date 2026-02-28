@@ -1,5 +1,5 @@
 const GIGA_IMG = "gigachad.png"; // On utilise ton fichier local maintenant
-const API_KEY = "gsk_...Kx3z"; // <--- METS TA CLÉ ICI !
+const API_KEY = "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"; // <--- METS TA CLÉ ICI !
 
 const chatWindow = document.getElementById('chat-window');
 const userInput = document.getElementById('user-input');
